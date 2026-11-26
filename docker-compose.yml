@@ -1,0 +1,12 @@
+services:
+  task-001:
+    build:
+      context: .
+      dockerfile: tasks/task-001-number-statistics/environment/Dockerfile
+    image: task-001
+
+  task-002:
+    build:
+      context: .
+      dockerfile: tasks/task-002-task-tracker/environment/Dockerfile
+    image: task-002

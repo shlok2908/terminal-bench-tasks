@@ -1,0 +1,9 @@
+cd d:\task
+@"
+node_modules/
+.pytest_cache/
+__pycache__/
+*.pyc
+dist/
+.env
+"@ | Out-File -Encoding utf8 .gitignore
